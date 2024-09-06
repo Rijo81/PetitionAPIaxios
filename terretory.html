@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Territorio Dominicano</title>
+</head>
+<body>
+    <h1>DIVISION TERRITORIAL</h1>
+    
+    <label>Región:</label>
+    <select id="regions" name="region">
+        <option value="">Seleccione una región</option>
+    </select>
+    <br><br>
+
+    <label>Provincias:</label>
+    <select id="provinces" name="provincia" disabled>
+        <option value="">Seleccione una provincia</option>
+    </select>
+    <br><br>
+
+    <label>Municipio:</label>
+    <select id="municipalities" name="municipio" disabled>
+        <option value="">Seleccione un municipio</option>
+    </select>
+    <br><br>
+
+    <label>Distrito:</label>
+    <select id="districts" name="distrito" disabled>
+        <option value="">Seleccione un distrito</option>
+    </select>
+    <br><br>
+
+    <label>Sección:</label>
+    <select id="sections" name="seccion" disabled>
+        <option value="">Seleccione una sección</option>
+    </select>
+    <br><br>
+
+    <label>Barrio:</label>
+    <select id="neighborhood" name="neighborhood" disabled>
+        <option value="">Seleccione un barrio</option>
+    </select>
+
+    <div id="resultMeta"></div>
+    <div id="resultValid"></div>
+    <div id="result"></div>
+    <script src="js/getTerretory.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
